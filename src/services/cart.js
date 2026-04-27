@@ -1,10 +1,15 @@
 // quais açoes meu carinho pode fazer
 
-//casos de uso
+//CASOS DE USO
+// -> adicionar item no carrinho
 ->adicionar item no carrinho
-async function addItem(userCart){
+async function addItem(userCart){}
 
-} {
+//-> deletar item do carrinho
+async function removeItem(userCart,name){}
 
--> deletar item do carrinho
--> remover um item
+//-> remover um item - diminui um item
+async function removeItem(userCart,index){}
+
+//-> calcular o total do carrinho
+async function addItem(userCart){} 
