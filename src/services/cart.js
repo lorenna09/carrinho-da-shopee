@@ -9,7 +9,8 @@ async function addItem(userCart, item){
 
 //-> calcular o total do carrinho
 async function calculateTotal(userCart){
-    console.log( userCart.reduce((total, item) => total + item.subtotal(), 0));  
+  const result = userCart.reduce((total, item) => total + item.subtotal(), 0);  
+   console.log(result);
 } 
 
 //-> deletar item do carrinho
